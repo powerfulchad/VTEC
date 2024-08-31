@@ -178,9 +178,12 @@ input:focus {
         display:none;
     }
     header h1 {
-        left:50%;
-        transform: translateX(-50%);
-        text-size-adjust: 20px;
+
+        position: static; /* 移除绝对定位 */
+        text-align: center; /* 中心对齐标题 */
+        font-size: 24px; /* 调整字体大小 */
+        margin: 0; /* 移除默认 margin */
+        
     }
     .news h2 {
         font-size:20px;
