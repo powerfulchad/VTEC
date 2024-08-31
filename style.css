@@ -136,6 +136,13 @@ footer {
 .product p {
     font-size: 14px;
 }
+.product a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.product a:hover {
+    text-decoration: underline;
+}
 .newsletter {
     background-color: #485652;
     color:white;
