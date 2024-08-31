@@ -180,6 +180,7 @@ input:focus {
     header h1 {
         left:50%;
         transform: translateX(-50%);
+        text-size-adjust: 20px;
     }
     .news h2 {
         font-size:20px;
